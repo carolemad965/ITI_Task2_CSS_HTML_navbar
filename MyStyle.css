@@ -1,0 +1,104 @@
+div#color p {
+
+    padding: 25px;
+    margin: 25px;
+    width: 1000px;
+    font-size: 25px;
+
+
+}
+
+span::first-line {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#D1 {
+    background-color: rgb(243, 193, 201);
+    border-left-color: rgb(240, 120, 140);
+    border-left-style: solid;
+    border-left-width: 5px;
+}
+
+#S1 {
+    background-color: rgb(190, 233, 208);
+    border-left-color: rgb(42, 233, 122);
+    border-left-style: solid;
+    border-left-width: 5px;
+}
+
+#I1 {
+    background-color: rgb(199, 216, 241);
+    border-left-color: rgb(31, 112, 233);
+    border-left-style: solid;
+    border-left-width: 5px;
+}
+
+#W1 {
+    background-color: rgb(232, 236, 193);
+    border-left-color: rgb(212, 230, 58);
+    border-left-style: solid;
+    border-left-width: 5px;
+}
+
+hr {
+    color: rgb(31, 112, 233);
+    border-style: solid;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #424242;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -10px;
+    
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 25px;
+    
+}
+
+li a:hover {
+    background-color: green;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+p#p1 {
+    margin: 50px;
+    padding: 0px;
+}
+
+p#p1:first-child {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    border-style: double;
+    border-color: green;
+    padding: 10px;
+    margin-top: 100px;
+
+}
